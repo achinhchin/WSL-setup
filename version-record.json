@@ -8,7 +8,8 @@
                 "release": false,
                 "beta": {
                     "0.0.b.0": [
-                        "WSL Setup"
+                        "(WSL Setup)",
+                        "add more detail"
                     ]
                 }
             }
