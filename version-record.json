@@ -1,0 +1,27 @@
+{
+    "versions": {
+        "0.0": {
+            "feature": [
+                "WSL setup"
+            ],
+            "development version": {
+                "release": true,
+                "beta": {
+                    "0.0.b.0": [
+                        "WSL Setup"
+                    ]
+                }
+            }
+        }
+    },
+    "features": {
+        "future": {
+        },
+        "present": {
+            "WSL setup": "0.0 -> now"
+        },
+        "past": {
+
+        }
+    }
+}
