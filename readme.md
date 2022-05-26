@@ -5,21 +5,27 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 ![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
 
 ### **Go to**
-- **[Verison record](./version-record.json)**
-- see how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git)
+- **[Verison record](./version-record.json)**.
+- See how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git).
 
 ### **OS requirement**
 - Windows 10, 11
 
 ### **Contents**
-#### 1. [Install and setup](./readmd.md#1-install-and-setup)
-1. [Turn on WSL feature](./readmd.md#11-turn-on-wsl-feature)
-2. [Install 2 softwares from Microsoft Store](./readmd.md#12-install-wsl)
-#### 2. [Running Ubuntu](./readmd.md#2-running-ubuntu)
+
+#### 1. [Prepare to install WSL](./readmd.md#1-prepare-to-install-wsl)
+1. [Run powershell as Administrator](./readmd.md#11-run-powershell-as-administrator)
+2. [Install WSL and Linux](./readmd.md#2-install-wsl-and-linux)
+
+#### 2. [Install WSL and Linux](./readmd.md#2-install-wsl-and-linux)
+1. [Download Linux](./readmd.md#21-download-linux-you-can-use-other-distro-of-linux-see-more-at-microsoft-store)
+2. [Install Linux on WSL](./readmd.md#22-install-linux-on-wsl)
+
+### 3. [Running Linux on WSL](./readmd.md#3-running-linux-on-wsl)
 
 ---
 
-## **1. Prepare for install WSL**
+## **1. Prepare to install WSL**
 
 ### **1.1 Run powershell as Administrator**
 1. Press "*Windows*" button on keyboard.
@@ -49,9 +55,14 @@ wsl --set-default-version 2
 
 ## **2 Install WSL and Linux**
 
-### **2.1 Install WSL** 
+### **2.1 Download Linux** (You can use other distro of linux, see more at Microsoft Store)
 1. Install [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV).
 
 ### **2.2 Install Linux on WSL**
-1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*".
+1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*", and wait for installing.
 
+## **3. Running Linux on WSL**
+
+There are 2 ways to run Linux on WSL,
+1. Run with Ubuntu app.
+2. Run at powershell by type "*wsl*".
