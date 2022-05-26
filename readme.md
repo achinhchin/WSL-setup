@@ -13,15 +13,15 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 ### **Contents**
 
-#### 1. [Prepare to install WSL](./readmd.md#1-prepare-to-install-wsl)
-1. [Run powershell as Administrator](./readmd.md#11-run-powershell-as-administrator)
-2. [Install WSL and Linux](./readmd.md#2-install-wsl-and-linux)
+#### 1. [Prepare to install WSL](./readme.md#1-prepare-to-install-wsl)
+1. [Run powershell as Administrator](./readme.md#11-run-powershell-as-administrator)
+2. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)
 
-#### 2. [Install WSL and Linux](./readmd.md#2-install-wsl-and-linux)
-1. [Download Linux](./readmd.md#21-download-linux-you-can-use-other-distro-of-linux-see-more-at-microsoft-store)
-2. [Install Linux on WSL](./readmd.md#22-install-linux-on-wsl)
+#### 2. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)
+1. [Download Linux](./readme.md#21-download-linux-you-can-use-other-distro-of-linux-see-more-at-microsoft-store)
+2. [Install Linux on WSL](./readme.md#22-install-linux-on-wsl)
 
-### 3. [Running Linux on WSL](./readmd.md#3-running-linux-on-wsl)
+### 3. [Running Linux on WSL](./readme.md#3-running-linux-on-wsl)
 
 ---
 
