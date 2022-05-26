@@ -4,7 +4,9 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 ![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
 
-### **[Verison record](./version-record.json)**
+### **Go to**
+- **[Verison record](./version-record.json)**
+- see how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git)
 
 ### **OS requirement**
 - Windows 10, 11
@@ -17,18 +19,39 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 ---
 
-## **1. Install and setup**
+## **1. Prepare for install WSL**
 
-### **1.1 Turn on WSL feature**
-1. Press "*Windows*" button.
-2. Type "*Turn Windows features on or off*", then press enter.
-3. Mark at "*Windows Subsystem for Linux*"
-4. Restart your PC.
+### **1.1 Run powershell as Administrator**
+1. Press "*Windows*" button on keyboard.
+2. Type "*Powershell*".
+3. At the right pane of search window press Run as Administrator.
 
-### **1.2 Install WSL**
+### **1.2 Prepare to install WSL**
+1. enable WSL
+```
+dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+
+2. enable VirtualMachinePlatform
+```
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+3. Download and install [WSL2 Linux kernel update package for x64 machines
+ Note](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+4. Set WSL-2 as default
+```
+wsl --set-default-version 2
+```
+
+5. Restart your computer
+
+## **2 Install WSL and Linux**
+
+### **2.1 Install WSL** 
 1. Install [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV).
 
-## **2. Running Ubuntu**
-There are 2 ways to running ubuntu,
-1. Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*".
-2. Open your windows terminal, then type "*wsl*", and "*Enter*".
+### **2.2 Install Linux on WSL**
+1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*".
+
