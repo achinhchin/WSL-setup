@@ -10,6 +10,11 @@
                     "0.0.b.0": [
                         "(WSL Setup)",
                         "add more detail"
+                    ],
+                    "0.0.b.1": [
+                        "add 1.2 Install Winodws Subsystem for Linux Preview",
+                        "add 1.3 Install vGPU driver",
+                        "Update contents"
                     ]
                 }
             }
