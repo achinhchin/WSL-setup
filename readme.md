@@ -65,7 +65,6 @@ dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 wsl --set-default-version 2
 ```
-
 5. Restart your computer
 
 ## **2 Download and install Linux**
