@@ -14,9 +14,9 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 ### **Contents**
 
 #### 1. [Prepare to install WSL](./readme.md#1-prepare-to-install-wsl)
-1. [Run powershell as Administrator](./readme.md#11-run-powershell-as-administrator)
-2. [Install Windows Subsystem for Linux Preview](./readme.md#12-install-windows-subsystem-for-linux-preview-for-windows-11-build-22000-or-windows-11-insider-preview-builds-21362-only)
-3. [Install vGPU driver](./readme.md#13-install-vgpu-driver)
+1. [Install Windows Subsystem for Linux Preview](./readme.md#12-install-windows-subsystem-for-linux-preview-for-windows-11-build-22000-or-windows-11-insider-preview-builds-21362-only)
+2. [Install vGPU driver](./readme.md#13-install-vgpu-driver)
+3. [Run powershell as Administrator](./readme.md#11-run-powershell-as-administrator)
 4. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)
 
 #### 2. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)
@@ -29,15 +29,11 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 ## **1. Prepare to install Linux**
 
-### **1.1 Run powershell as Administrator**
-1. Press "*Windows*" button on keyboard.
-2. Type "*Powershell*".
-3. At the right pane of search window press Run as Administrator.
 
-### **1.2 Install Windows Subsystem for Linux Preview** For (Windows 11 (build 22000.\*) or Windows 11 Insider Preview (builds 21362+) only
+### **1.1 Install Windows Subsystem for Linux Preview** For (Windows 11 (build 22000.\*) or Windows 11 Insider Preview (builds 21362+) only
 Download and install [here](https://www.microsoft.com/store/productId/9P9TQF7MRM4R)
 
-### **1.3 Install vGPU driver**
+### **1.2 Install vGPU driver**
 It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WSL so that you can benefit from hardware accelerated OpenGL rendering. You can find preview drivers supporting WSL from each of our partners below.
 
 [AMD GPU driver for WSL](https://community.amd.com/community/radeon-pro-graphics/blog/2020/06/17/announcing-amd-support-for-gpu-accelerated-machine-learning-training-on-windows-10)
@@ -45,6 +41,11 @@ It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WS
 [Intel GPU driver for WSL](https://downloadcenter.intel.com/download/30579/Intel-Graphics-Windows-DCH-Drivers)
 
 [NVIDIA GPU driver for WSL](https://developer.nvidia.com/cuda/wsl)
+
+### **1.3 Run powershell as Administrator**
+1. Press "*Windows*" button on keyboard.
+2. Type "*Powershell*".
+3. At the right pane of search window press Run as Administrator.
 
 ### **1.4 Prepare to install Linux**
 1. enable WSL
