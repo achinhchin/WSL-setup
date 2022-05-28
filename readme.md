@@ -31,16 +31,16 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 
 ### **1.1 Install Windows Subsystem for Linux Preview** For (Windows 11 (build 22000.\*) or Windows 11 Insider Preview (builds 21362+) only
-Download and install [here](https://www.microsoft.com/store/productId/9P9TQF7MRM4R)
+Download and install [here](https://www.microsoft.com/store/productId/9P9TQF7MRM4R).
 
 ### **1.2 Install vGPU driver**
 It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WSL so that you can benefit from hardware accelerated OpenGL rendering. You can find preview drivers supporting WSL from each of our partners below.
 
-[AMD GPU driver for WSL](https://community.amd.com/community/radeon-pro-graphics/blog/2020/06/17/announcing-amd-support-for-gpu-accelerated-machine-learning-training-on-windows-10)
+- [AMD GPU driver for WSL](https://community.amd.com/community/radeon-pro-graphics/blog/2020/06/17/announcing-amd-support-for-gpu-accelerated-machine-learning-training-on-windows-10)
 
-[Intel GPU driver for WSL](https://downloadcenter.intel.com/download/30579/Intel-Graphics-Windows-DCH-Drivers)
+- [Intel GPU driver for WSL](https://downloadcenter.intel.com/download/30579/Intel-Graphics-Windows-DCH-Drivers)
 
-[NVIDIA GPU driver for WSL](https://developer.nvidia.com/cuda/wsl)
+- [NVIDIA GPU driver for WSL](https://developer.nvidia.com/cuda/wsl)
 
 ### **1.3 Run powershell as Administrator**
 1. Press "*Windows*" button on keyboard.
@@ -48,24 +48,31 @@ It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WS
 3. At the right pane of search window press Run as Administrator.
 
 ### **1.4 Prepare to install Linux**
-1. enable WSL
+1. enable WSL.
 ```
 dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-2. enable VirtualMachinePlatform
+2. enable VirtualMachinePlatform.
 ```
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
 3. Download and install [WSL2 Linux kernel update package for x64 machines
- Note](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+ Note](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
 
-4. Set WSL-2 as default
+4. Set WSL to version 2.
 ```
 wsl --set-default-version 2
 ```
-5. Restart your computer
+
+5. Update and upgrade apt (for Linux/Debian only)
+```
+wsl
+sudo apt update && sudo apt upgrade
+```
+
+6. Restart your computer.
 
 ## **2 Download and install Linux**
 
@@ -77,6 +84,6 @@ wsl --set-default-version 2
 
 ## **3. Running Linux on WSL**
 
-There are 2 ways to run Linux on WSL,
+There are 2 ways to run Linux on WSL, 
 1. Run with Ubuntu app.
 2. Run at powershell by type "*wsl*".
