@@ -5,7 +5,7 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 ![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
 
 ### **Go to**
-- **[Verison record](./version-record.json)**.
+- [Verison record](./version-record.json).
 - See how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git).
 
 ### **OS requirement**

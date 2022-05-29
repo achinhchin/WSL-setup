@@ -16,7 +16,8 @@
                         "add 1.3 Install vGPU driver",
                         "Update contents",
                         "Add full stop",
-                        "Add \"sudo apt update && sudo apt upgrade\""
+                        "Add \"sudo apt update && sudo apt upgrade\"",
+			"Remove bold format in go to version-record.json"
                     ]
                 }
             }
