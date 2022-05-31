@@ -8,11 +8,13 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 - [Verison record](./version-record.json).
 - See how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git).
 
-### **OS requirement**
+### **OS support**
 - Windows 10, 11
 
-### **Contents**
+### **Credits**
+- Inspiration, list of modules and solution from [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public.git).
 
+### **Contents**
 #### 1. [Prepare to install WSL](./readme.md#1-prepare-to-install-wsl)
 1. [Install Windows Subsystem for Linux Preview](./readme.md#12-install-windows-subsystem-for-linux-preview-for-windows-11-build-22000-or-windows-11-insider-preview-builds-21362-only)
 2. [Install vGPU driver](./readme.md#13-install-vgpu-driver)
@@ -28,18 +30,13 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 ---
 
 ## **1. Prepare to install Linux**
-
-
 ### **1.1 Install Windows Subsystem for Linux Preview** For (Windows 11 (build 22000.\*) or Windows 11 Insider Preview (builds 21362+) only
 Download and install [here](https://www.microsoft.com/store/productId/9P9TQF7MRM4R).
 
 ### **1.2 Install vGPU driver**
 It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WSL so that you can benefit from hardware accelerated OpenGL rendering. You can find preview drivers supporting WSL from each of our partners below.
-
 - [AMD GPU driver for WSL](https://community.amd.com/community/radeon-pro-graphics/blog/2020/06/17/announcing-amd-support-for-gpu-accelerated-machine-learning-training-on-windows-10)
-
 - [Intel GPU driver for WSL](https://downloadcenter.intel.com/download/30579/Intel-Graphics-Windows-DCH-Drivers)
-
 - [NVIDIA GPU driver for WSL](https://developer.nvidia.com/cuda/wsl)
 
 ### **1.3 Run powershell as Administrator**
@@ -75,7 +72,6 @@ sudo apt update && sudo apt upgrade
 6. Restart your computer.
 
 ## **2 Download and install Linux**
-
 ### **2.1 Download Linux** (You can use other distro of linux, see more at Microsoft Store)
 1. Install [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV).
 
@@ -83,7 +79,6 @@ sudo apt update && sudo apt upgrade
 1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*", and wait for installing.
 
 ## **3. Running Linux on WSL**
-
 There are 2 ways to run Linux on WSL, 
 1. Run with Ubuntu app.
 2. Run at powershell by type "*wsl*".
