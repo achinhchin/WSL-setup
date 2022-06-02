@@ -14,7 +14,7 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 - Inspiration, list of modules and solution from [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public.git).
 
 ### **OS support**
-- Windows 10, 11
+- Windows
 
 ### **Contents**
 #### 1. [Prepare to install WSL](./readme.md#1-prepare-to-install-wsl)
