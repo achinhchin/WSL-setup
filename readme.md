@@ -2,23 +2,23 @@
 This is my WSL setup, and it's for run linux terminal while running Windows.
 “Out of 130 tests in total, Windows 11 WSL2 Ubuntu 20.04 LTS managed to run at 94% the speed of bare metal Ubuntu 20.04 LTS on the same system.
 
+### **Preview Image**
 ![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
 
 ### **Go to**
 - [Verison record](./version-record.json).
 - See how to get cool and productive [Windows Terminal](https://github.com/chinhchin/Windows-Terminal-setup.git).
 
-### **OS support**
-- Windows 10, 11
-
 ### **Credits**
 - Inspiration, list of modules and solution from [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public.git).
+
+### **OS support**
+- Windows 10, 11
 
 ### **Contents**
 #### 1. [Prepare to install WSL](./readme.md#1-prepare-to-install-wsl)
 1. [Install Windows Subsystem for Linux Preview](./readme.md#12-install-windows-subsystem-for-linux-preview-for-windows-11-build-22000-or-windows-11-insider-preview-builds-21362-only)
-2. [Install vGPU driver](./readme.md#13-install-vgpu-driver)
-3. [Run powershell as Administrator](./readme.md#11-run-powershell-as-administrator)
+2. [Install vGPU driver](./readme.md#13-install-vgpu-driver) 3. [Run powershell as Administrator](./readme.md#11-run-powershell-as-administrator)
 4. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)
 
 #### 2. [Install WSL and Linux](./readme.md#2-install-wsl-and-linux)

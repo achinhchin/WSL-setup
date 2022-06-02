@@ -18,7 +18,8 @@
                         "Add full stop",
                         "Add \"sudo apt update && sudo apt upgrade\"",
 			            "Remove bold format in go to version-record.json",
-                        "add credits and change some format"
+                        "Add credits and change some format",
+                        "Add preview image text"
                     ]
                 }
             }
