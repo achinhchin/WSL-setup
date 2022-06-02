@@ -2,7 +2,8 @@
 This is my WSL setup, and it's for run linux terminal while running Windows.
 “Out of 130 tests in total, Windows 11 WSL2 Ubuntu 20.04 LTS managed to run at 94% the speed of bare metal Ubuntu 20.04 LTS on the same system.
 
-### **Preview Image**
+### **Image Preview**
+- Example command
 ![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
 
 ### **Go to**
