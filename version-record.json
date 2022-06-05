@@ -22,7 +22,10 @@
                         "Add preview image text",
                         "Change from Windows 10, 11 to only Winodows instead in OS support topic",
                         "Add setup linux on wsl"
-                    ]
+                    ],
+		    "0.0.b.2": [
+			"Change WSL ubuntu to kali linux"
+		    ]
                 }
             }
         }
@@ -38,3 +41,4 @@
         }
     }
 }
+

@@ -75,11 +75,11 @@ sudo apt update && sudo apt upgrade
 6. Restart your computer.
 
 ## **2 Download and install Linux**
-### **2.1 Download Linux** (You can use other distro of linux, see more at Microsoft Store)
-1. Install [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV).
+### **2.1 Download Linux** (You can use other distro of linux, see more in Microsoft Store)
+1. Install [Kali Linux](https://www.microsoft.com/store/productId/9PKR34TNCV07).
 
 ### **2.2 Install Linux on WSL**
-1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*", and wait for installing.
+1. **Open with ubuntu app**: Press "*Windows*" button, type "*Kali Linux*", then press "*Enter*", and wait for installing.
 
 ## **3. Running and setup Linux on WSL**
 ### **3.1 Running Linux on WSL**
