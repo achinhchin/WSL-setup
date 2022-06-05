@@ -27,6 +27,8 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 2. [Install Linux on WSL](./readme.md#22-install-linux-on-wsl)
 
 ### 3. [Running Linux on WSL](./readme.md#3-running-linux-on-wsl)
+1. [Running Linux on WSL](./readme.md#31-running-linux-on-wsl)
+2. [Setup Linux on WSL](./readme.md#32-setup-linux-on-wsl)
 
 ---
 
@@ -79,7 +81,14 @@ sudo apt update && sudo apt upgrade
 ### **2.2 Install Linux on WSL**
 1. **Open with ubuntu app**: Press "*Windows*" button, type "*Ubuntu*", then press "*Enter*", and wait for installing.
 
-## **3. Running Linux on WSL**
+## **3. Running and setup Linux on WSL**
+### **3.1 Running Linux on WSL**
 There are 2 ways to run Linux on WSL, 
 1. Run with Ubuntu app.
 2. Run at powershell by type "*wsl*".
+
+### **3.2 Setup Linux on WSL**
+Type this command in your Linux.
+```
+sudo apt update && sudo apt upgrade
+```

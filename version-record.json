@@ -20,7 +20,8 @@
 			            "Remove bold format in go to version-record.json",
                         "Add credits and change some format",
                         "Add preview image text",
-                        "Change from Windows 10, 11 to only Winodows instead in OS support topic"
+                        "Change from Windows 10, 11 to only Winodows instead in OS support topic",
+                        "Add setup linux on wsl"
                     ]
                 }
             }
