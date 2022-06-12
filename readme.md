@@ -4,7 +4,7 @@ This is my WSL setup, and it's for run linux terminal while running Windows.
 
 ### **Image Preview**
 - Example command
-![screenshot](https://github.com/chinhchin/wsl-setup/blob/master/readme-assets/screenshot.png?raw=true)
+![screenshot](./readme-assets/screenshot.png?raw=true)
 
 ### **Go to**
 - [Verison record](./version-record.json).
