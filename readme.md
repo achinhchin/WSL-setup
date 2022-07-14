@@ -48,14 +48,19 @@ It is recommended to run WSLg on a system with virtual GPU (vGPU) enabled for WS
 3. At the right pane of search window press Run as Administrator.
 
 ### **1.4 Prepare to install Linux**
+
+> **Important**
+>
+> If it asks you to reboot your device, you have to reboot.
+
 1. enable WSL.
 ```
-dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all 
 ```
 
 2. enable VirtualMachinePlatform.
 ```
-dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all
 ```
 
 3. Download and install [WSL2 Linux kernel update package for x64 machines
