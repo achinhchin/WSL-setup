@@ -66,13 +66,7 @@ dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 wsl --set-default-version 2
 ```
 
-5. Update and upgrade apt (for Linux/Debian only)
-```
-wsl
-sudo apt update && sudo apt upgrade
-```
-
-6. Restart your computer.
+5. Restart your computer.
 
 ## **2 Download and install Linux**
 ### **2.1 Download Linux** (You can use other distro of linux, see more in Microsoft Store)
